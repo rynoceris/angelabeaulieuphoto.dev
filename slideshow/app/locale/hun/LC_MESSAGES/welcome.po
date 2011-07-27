@@ -1,0 +1,8 @@
+msgid "Welcome to Director"
+msgstr "Üdvözli a Director!"
+
+msgid "Click here to begin the installation in English."
+msgstr "Kattintson ide a magyar nyelvű telepítés megkezdéséhez."
+
+msgid "Language"
+msgstr "magyar"
