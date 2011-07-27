@@ -1,0 +1,11 @@
+<cross-domain-policy>
+<allow-access-from domain="www.rynoceris.com" />
+<allow-access-from domain="rynoceris.com" />
+<allow-access-from domain="www.angelabeaulieuphoto.com" />
+<allow-access-from domain="angelabeaulieuphoto.com" />
+<allow-access-from domain="tllewis.rynoceris.com" />
+<allow-access-from domain="entegritywind.com" />
+<allow-access-from domain="www.entegritywind.com" />
+<allow-access-from domain="dev.rynoceris.com" />
+<allow-access-from domain="dev.rynoceris.com/angelabeaulieuphoto.com" />
+</cross-domain-policy>
