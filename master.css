@@ -1,14 +1,15 @@
-/* Copyright (c) 2009-2010 Ryan Ours. */
+/* Copyright (c) 2009-2011 Ryan Ours. */
 /* www.ryanours.com */
 /* Main CSS for angelabeaulieuphoto.com */
 
 /* Main Styles */
 * { margin:0; padding:0; }
 body { background:#fff; }
-#main { width:960px; margin:0 auto; padding:30px 0; }
-#header { width:100%; float:left; padding:0; margin:0 0 30px; }
+#main { width:960px; margin:0 auto; padding:50px 0; position:relative; }
+#header { position:absolute; left:54px; margin-top:20px; }
 #sub-header { width:313px; float:left; }
-#content.home { width:1120px; float:left; margin:0 auto; overflow:none; }
+#content.home { width:960px; min-height:715px; float:left; margin:0 auto; overflow:none; background:url(images/bg.png) no-repeat 0 0; }
+#content.home #sub-content { background:#89d1d8; float:left; margin:100px 0 0 63px; -moz-border-radius:10px; -webkit-border-radius:10px; border-radius:10px; min-height: 515px; padding: 10px; width: 811px; }
 #content { width:960px; float:left; margin:0 auto; overflow:none; }
 #gallery { width:960px; float:left; margin:0 auto; }
 #copy { float:left; width:100%; background:#2a2a2a; -moz-border-radius:10px; -webkit-border-radius:10px; padding:15px; }
@@ -16,8 +17,8 @@ body#blog #content { width:660px; float:left; }
 body#about-page #copy { width:620px; float:left; }
 #sidebar { width:270px; padding:15px; float:right; background:#2a2a2a; -moz-border-radius:10px; -webkit-border-radius:10px; border-radius:10px; }
 body#about-page #sidebar { width:259px; }
-#nav { width:960px; clear:both; margin:0 auto; padding-top:30px; }
-#footer { width:100%; float:left; margin-top:25px; margin-bottom:25px; padding-bottom:25px; }
+#nav { float: left; margin: 3px 63px 0; width: 825px; padding: 0 0 0 7px; }
+#footer { width:863px; margin: 0 auto 10px; clear:both; height:36px; }
 #content div.post { background:#2a2a2a; -moz-border-radius:10px; -webkit-border-radius:10px; border-radius:10px; padding:15px; margin-right:20px; margin-bottom:20px; float:left; width:610px; }
 #respond { background:#2a2a2a; float:left; -moz-border-radius:10px; -webkit-border-radius:10px; border-radius:10px; padding:15px; margin-right:20px; margin-top:20px; }
 .col-1, .col-2, .col-3, .col-4 { width:218px; float:left; padding:0 10px; border-left:1px solid #6F6F6F; min-height: 720px; }
@@ -25,7 +26,7 @@ body#about-page #sidebar { width:259px; }
 
 /* Image Styles */
 img { border:0; }
-#header img.logo { float:left; width:76px; height:76px; margin-right:20px; }
+#header img.logo { float:left; width:56px; height:56px; margin:5px 20px 0 0; }
 #content img.panel-one-sm { margin:0 9px 0 0; float:left; height:450px; width:auto; }
 #content img.panel-two-sm, #content img.panel-three-sm, #content img.panel-four-sm { margin:0 9px; float:left; height:450px; width:auto; }
 #content img.panel-five-sm { margin:0 0 0 9px; float:left; height:450px; width:auto; }
@@ -36,15 +37,15 @@ img { border:0; }
 /* Link Styles */
 a { outline-style:none; }
 p a { outline-style:none; text-decoration:none; border:0; color:#fff; }
-p a:hover { color:#6198e0; border-bottom:1px dotted #6198e0; }
+p a:hover { color:#6AA0A7; border-bottom:1px dotted #6AA0A7; }
 #header a { color:#333; text-decoration:none; }
 #header h1 a { color:#333; text-decoration:none; }
 #header h2 a { color:#999; text-decoration:none; }
-#nav a { color:#6f6f6f; text-decoration:none; }
-#nav a:hover { color:#fff; }
-#nav a.active { color:#fff; }
-p.footer a { color:#3e3d3d; }
-p.footer a:hover { color:#6198e0; }
+#nav a { color:#fff; text-decoration:none; }
+#nav a:hover { color:#89d1d8; }
+#nav a.active { color:#89d1d8; }
+p.footer a { color:#bbb; }
+p.footer a:hover { color:#6AA0A7; }
 #sidebar a { color:#ccc; text-decoration:none; }
 #content .post a, .comment-meta.commentmetadata a { color:#6198e0; border-bottom:1px dotted #6198e0; text-decoration:none; }
 #content .post a:hover, .comment-meta.commentmetadata a:hover { color:#ccc; border-bottom:1px dotted #ccc; text-decoration:none; }
@@ -56,14 +57,14 @@ a.go-back:hover { color:#6198e0; cursor:pointer; }
 /* Text Styles */
 p, span { font:normal 14px/16px Helvetica, arial, sans-serif; color:#6F6F6F; padding:10px 0; }
 small { color:#6f6f6f; font-family: Helvetica, arial, sans-serif; }
-#main #header h1 { color:#ccc; float:left; padding-top:7px; letter-spacing:3px; font-weight:normal; font-family:"Century Gothic", Helvetica, arial, sans-serif; }
+#main #header h1 { color:#ccc; float:left; letter-spacing:3px; font-weight:normal; font-family:"Century Gothic", Helvetica, arial, sans-serif; }
 #main #header h2 { color:#ccc; float:left; padding-left:7px; letter-spacing:21px; font-size:10px; font-weight:normal; font-family:"Century Gothic", Helvetica, arial, sans-serif; }
-#nav h2 { float:left; padding:0 5px; text-transform:uppercase; font-weight:normal; letter-spacing:2px; font-size:22px; }
+#content #nav h2 { color: #FFFFFF; float: left; font-family: "Century Gothic",Helvetica,arial,sans-serif; font-size: 16px; font-weight: normal; letter-spacing: 3px; padding: 0 4px; text-transform: none; }
 #content h2 { color:#6F6F6F; font-weight:normal; letter-spacing:2px; }
 body#galleries-page #content h2 { float:left; }
 body#galleries-page.galleries #content h2 { float:none; }
 #copy h2 {color:#6198e0;}
-p.footer { float:right; text-align:right; color:#3e3d3d; padding:20px 0 0 0; }
+p.footer { color: #bbb; float: right; padding: 20px 7px 0 0; text-align: right; }
 #sidebar h2 { color:#fff; }
 strong.author, span.asterisk, span.pink { color:#c94185; }
 span.price { color:#6198e0; }

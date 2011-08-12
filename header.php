@@ -1,5 +1,5 @@
 <?php 
-// Copyright (c) 2009-2010 Ryan Ours. www.ryanours.com
+// Copyright (c) 2009-2011 Ryan Ours. www.ryanours.com
 // Header generator for angelabeaulieuphoto.com
 
 $uri_path = $_SERVER['SERVER_NAME'];
@@ -92,20 +92,10 @@ $keywords = array(
 	<link href="<?php echo $basepath; ?>/master.css" rel="stylesheet" type="text/css" media="projection,screen" />
 	<script type="text/javascript" src="<?php echo $basepath; ?>/jquery-1.3.2.min.js"></script>
 	<script src="<?php echo $basepath; ?>/validate.js" type="text/javascript" charset="utf-8"></script>
-	<script type="text/javascript" src="<?php echo $basepath; ?>/cufon-yui.js"></script>
-	<script type="text/javascript" src="<?php echo $basepath; ?>/Prelo_Slab_Medium_400-Prelo_Slab_Bold_400.font.js"></script>
-	<?php if ($sectiontitle["$page"] == 'Home') { ?>
-	<script type="text/javascript" src="<?php echo $basepath; ?>/home.js"></script>
-	<?php } ?>
-	<script type="text/javascript">
-		Cufon.replace('input#submitter, #copy h3', {
-			hover: true
-		});
-	</script>
 	
 </head>
 <body id="<?php $body_id = str_replace(' ','-', $sectiontitle["$section"]); echo strtolower($body_id).'-page'; ?>" class="<?php $body_class = str_replace(' ','-', $sectiontitle["$page"]); echo strtolower($body_class); ?>">
 <div id="main">
-	<div id="header"><a href="<?php echo $basepath; ?>"><img class="logo" src="<?php echo $imagepath; ?>ab-logo-new.png" alt="" /></a>
+	<div id="header"><a href="<?php echo $basepath; ?>"><img class="logo" src="<?php echo $imagepath; ?>ab-logo-new-56x56.png" alt="" /></a>
 		<div id="sub-header"><h1><a href="<?php echo $basepath; ?>">angela beaulieu</a></h1><h2><a href="<?php echo $basepath; ?>">PHOTOGRAPHY</a></h2></div>
 	</div>
