@@ -3,7 +3,7 @@
 // Header generator for angelabeaulieuphoto.com
 
 $uri_path = $_SERVER['SERVER_NAME'];
-if ($uri_path == 'dev.rynoceris.com'){
+if ($uri_path == 'dev.ryanours.com'){
 	$uri_path = $uri_path.'/angelabeaulieuphoto.com';
 }
 $basepath = 'http://'.$uri_path;
