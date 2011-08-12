@@ -4,9 +4,10 @@
 
 /* Main Styles */
 * { margin:0; padding:0; }
-body { background:#242424; }
+body { background:#fff; }
 #main { width:960px; margin:0 auto; padding:30px 0; }
 #header { width:100%; float:left; padding:0; margin:0 0 30px; }
+#sub-header { width:313px; float:left; }
 #content.home { width:1120px; float:left; margin:0 auto; overflow:none; }
 #content { width:960px; float:left; margin:0 auto; overflow:none; }
 #gallery { width:960px; float:left; margin:0 auto; }
@@ -36,7 +37,9 @@ img { border:0; }
 a { outline-style:none; }
 p a { outline-style:none; text-decoration:none; border:0; color:#fff; }
 p a:hover { color:#6198e0; border-bottom:1px dotted #6198e0; }
-#header a { color:#6F6F6F; text-decoration:none; }
+#header a { color:#333; text-decoration:none; }
+#header h1 a { color:#333; text-decoration:none; }
+#header h2 a { color:#999; text-decoration:none; }
 #nav a { color:#6f6f6f; text-decoration:none; }
 #nav a:hover { color:#fff; }
 #nav a.active { color:#fff; }
@@ -53,7 +56,8 @@ a.go-back:hover { color:#6198e0; cursor:pointer; }
 /* Text Styles */
 p, span { font:normal 14px/16px Helvetica, arial, sans-serif; color:#6F6F6F; padding:10px 0; }
 small { color:#6f6f6f; font-family: Helvetica, arial, sans-serif; }
-#main #header h1 { color:#ccc; float:left; padding-top:20px; letter-spacing:3px; font-weight:normal; }
+#main #header h1 { color:#ccc; float:left; padding-top:7px; letter-spacing:3px; font-weight:normal; font-family:"Century Gothic", Helvetica, arial, sans-serif; }
+#main #header h2 { color:#ccc; float:left; padding-left:7px; letter-spacing:21px; font-size:10px; font-weight:normal; font-family:"Century Gothic", Helvetica, arial, sans-serif; }
 #nav h2 { float:left; padding:0 5px; text-transform:uppercase; font-weight:normal; letter-spacing:2px; font-size:22px; }
 #content h2 { color:#6F6F6F; font-weight:normal; letter-spacing:2px; }
 body#galleries-page #content h2 { float:left; }

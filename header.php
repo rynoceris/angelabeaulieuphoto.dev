@@ -98,7 +98,7 @@ $keywords = array(
 	<script type="text/javascript" src="<?php echo $basepath; ?>/home.js"></script>
 	<?php } ?>
 	<script type="text/javascript">
-		Cufon.replace('h1, input#submitter, h2, #copy h3', {
+		Cufon.replace('input#submitter, #copy h3', {
 			hover: true
 		});
 	</script>
@@ -106,4 +106,6 @@ $keywords = array(
 </head>
 <body id="<?php $body_id = str_replace(' ','-', $sectiontitle["$section"]); echo strtolower($body_id).'-page'; ?>" class="<?php $body_class = str_replace(' ','-', $sectiontitle["$page"]); echo strtolower($body_class); ?>">
 <div id="main">
-	<div id="header"><a href="<?php echo $basepath; ?>"><img class="logo" src="<?php echo $imagepath; ?>ab-logo-pink.png" alt="" /></a><h1><a href="<?php echo $basepath; ?>">Angela Beaulieu Photography</a></h1></div>
+	<div id="header"><a href="<?php echo $basepath; ?>"><img class="logo" src="<?php echo $imagepath; ?>ab-logo-new.png" alt="" /></a>
+		<div id="sub-header"><h1><a href="<?php echo $basepath; ?>">angela beaulieu</a></h1><h2><a href="<?php echo $basepath; ?>">PHOTOGRAPHY</a></h2></div>
+	</div>
