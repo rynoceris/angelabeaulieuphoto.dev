@@ -1,9 +1,0 @@
-
-<h6>
-	<?php e(htmlspecialchars($album['Album']['name'])); ?>
-		
-</h6>
-
-<span class="subtext">
-<?php e(htmlspecialchars($album['Album']['description_clean'])); ?>
-</span>

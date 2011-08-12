@@ -1,6 +1,0 @@
-<?php
-
-	if (is_numeric($thumb)) {
-		e($html->image('transparent.gif', array('width' => 0, 'height' => 0, 'onload' => "after_image_save($thumb, $active, $id)"))); 
-	}
-?>

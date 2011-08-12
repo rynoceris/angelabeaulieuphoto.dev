@@ -1,1 +1,0 @@
-<?php e($html->link($director->trunc($album['Album']['name'], 50), "/albums/edit/{$album['Album']['id']}")); ?>
