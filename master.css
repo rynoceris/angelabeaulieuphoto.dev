@@ -5,24 +5,34 @@
 /* Main Styles */
 * { margin:0; padding:0; }
 body { background:#fff; }
-#main { width:960px; margin:0 auto; padding:50px 0; position:relative; }
+#main { width:960px; margin:0 auto; position:relative; }
 #header { position:absolute; left:54px; margin-top:20px; }
 #sub-header { width:313px; float:left; }
-#content { width:960px; min-height:715px; float:left; margin:0 auto; overflow:none; background:url(images/bg.png) no-repeat 0 0; }
-#content.home #sub-content { background:#89d1d8; float:left; margin:100px 0 0 63px; -moz-border-radius:10px; -webkit-border-radius:10px; border-radius:10px; min-height: 515px; padding: 10px; width: 811px; }
-#content #sub-content { background:#89d1d8; float:left; margin:100px 0 0 63px; -moz-border-radius:10px; -webkit-border-radius:10px; border-radius:10px; min-height: 515px; padding: 10px; width: 811px; }
-#gallery { width:960px; float:left; margin:0 auto; }
+#wrapper { width:960px; margin:0 auto; overflow:none; }
+#wrapper-top { width:960px; height:116px; margin:0 auto; float:left; background:url(images/wrapper-top-bg.png) no-repeat 0 0; }
+#wrapper-bottom { width:960px; height:125px; margin:0 auto; float:left; background:url(images/wrapper-bottom-bg.png) no-repeat 0 0; }
+#content {
+	width:910px;
+	margin:0 auto;
+	float:left;
+	background:url(images/bg.png) repeat-y 0 0;
+	padding:0 25px;
+}
+#content.home #sub-content { float:left; background:#89d1d8; margin:0 auto; -moz-border-radius:10px; -webkit-border-radius:10px; border-radius:10px; padding: 10px; width: 890px; }
+#content #sub-content { float:left; background:#89d1d8; margin:0 auto; -moz-border-radius:10px; -webkit-border-radius:10px; border-radius:10px; padding: 10px; width: 890px; }
+#gallery { width:528px; margin:0 auto; }
 #copy { float:left; width:100%; background:#6AA0A7; -moz-border-radius:10px; -webkit-border-radius:10px; padding:15px; }
 body#blog #content { width:660px; float:left; }
-body#about-page #copy { width:482px; float:left; height:389px; }
+body#about-page #copy { width:560px; float:left; height:389px; }
 #sidebar { width:270px; padding:15px; float:right; background:#6AA0A7; -moz-border-radius:10px; -webkit-border-radius:10px; border-radius:10px; }
 body#about-page #sidebar { width:259px; height:389px; }
-#nav { float: left; margin: 3px 63px 0; width: 825px; padding: 0 0 0 7px; }
-#footer { width:863px; margin: 0 auto 10px; clear:both; height:36px; }
+#nav { float:left; width: 960px; background:url(images/bg.png) repeat-y 0 0; padding:10px 0; }
+#footer { width:940px; margin: 0 auto 10px auto; clear:both; height:36px; }
 #content div.post { background:#2a2a2a; -moz-border-radius:10px; -webkit-border-radius:10px; border-radius:10px; padding:15px; margin-right:20px; margin-bottom:20px; float:left; width:610px; }
 #respond { background:#2a2a2a; float:left; -moz-border-radius:10px; -webkit-border-radius:10px; border-radius:10px; padding:15px; margin-right:20px; margin-top:20px; }
 .col-1, .col-2, .col-3, .col-4 { width:218px; float:left; padding:0 10px; border-left:1px solid #6F6F6F; min-height: 720px; }
 .col-4 { border-right:1px solid #6F6F6F; }
+#menu { width:821px; margin:0 auto; }
 
 /* Image Styles */
 img { border:0; }
@@ -63,9 +73,11 @@ small { color:#6f6f6f; font-family: Helvetica, arial, sans-serif; }
 #main #header h2 { color:#ccc; float:left; padding-left:7px; letter-spacing:21px; font-size:10px; font-weight:normal; font-family:"Century Gothic", Helvetica, arial, sans-serif; }
 #content #nav h2 { color: #FFFFFF; float: left; font-family: "Century Gothic",Helvetica,arial,sans-serif; font-size: 16px; font-weight: normal; letter-spacing: 3px; padding: 0 4px; text-transform: none; }
 #content h2 { color:#6F6F6F; font-weight:normal; letter-spacing:2px; }
+#nav h2 { color: #FFFFFF; float: left; font-family: "Century Gothic",Helvetica,arial,sans-serif; font-size: 16px; font-weight: normal; letter-spacing: 3px; padding: 0 4px; text-transform: none; }
+#wrapper h2 { color:#6F6F6F; font-weight:normal; letter-spacing:2px; }
 body#galleries-page #content h2 { float:left; }
 body#galleries-page.galleries #content h2 { float:none; }
-#copy h2 {color:#fff; font-family: "Century Gothic",Helvetica,arial,sans-serif; line-height: 23px; margin-bottom:6px; }
+#copy h2 { color:#fff; font-family: "Century Gothic",Helvetica,arial,sans-serif; line-height: 23px; margin-bottom:6px; }
 p.footer { color: #bbb; float: right; padding: 20px 7px 0 0; text-align: right; }
 #sidebar h2 { color:#fff; }
 strong.author, span.asterisk, span.pink { color:#c94185; }
@@ -80,6 +92,7 @@ h3#comments { background:#2a2a2a; -moz-border-radius-topleft:10px; -webkit-borde
 #copy ul { list-style:disc; list-style-position:inside; color:#ccc; font-weight:bold; }
 #copy li { text-indent:20px; font-weight:normal; }
 p.note { width:100%; float:left; }
+body#galleries-page #sub-content h2 { color:#fff; font-family: "Century Gothic",Helvetica,arial,sans-serif; line-height: 23px; margin-bottom:6px; }
 
 /* Contact Form Styles */
 #main form { display: block; width: 100%; padding: 25px 0 20px 0;}
@@ -114,7 +127,7 @@ a.mail:hover { background-position:0 2px; }
 
 #content #sub-content a.facebook-galleries { background:url(images/facebook-galleries.jpg) no-repeat 0 0; width:390px; height:505px; float:left; -moz-border-radius:10px; -webkit-border-radius:10px; border-radius:10px; border:5px solid #fff; }
 #content #sub-content a.facebook-galleries:hover { background-position:-400px 0; }
-#content #sub-content a.enter-site { background:url(images/enter-site.jpg) no-repeat 0 0; width:390px; height:505px; float:left; margin-right:11px; -moz-border-radius:10px; -webkit-border-radius:10px; border-radius:10px; border:5px solid #fff; }
+#content #sub-content a.enter-site { background:url(images/enter-site.jpg) no-repeat 0 0; width:390px; height:505px; float:left; margin-right:9px; -moz-border-radius:10px; -webkit-border-radius:10px; border-radius:10px; border:5px solid #fff; }
 #content #sub-content a.enter-site:hover { background-position:-400px 0; }
 
 /* Blog Styles */
@@ -137,7 +150,7 @@ body.single .navigation { color:#c94185; float:left; width:610px; -moz-border-ra
 
 /* Gallery Styles */
 #content #gallery a img { border:5px solid #fff; }
-#content #gallery a { float:left; display:block; color:#666; padding:0 10px 0 10px; margin-bottom:20px; text-decoration:none; outline-style:none; }
+#content #gallery a { float:left; display:block; color:#666; padding:0 20px 0 20px; margin-bottom:20px; text-decoration:none; outline-style:none; }
 #content #gallery a:hover { color:#58365e; outline-style:none; }
 #content #gallery a:hover img { border:5px solid #c94185; }
 #content #gallery span.caption { font-size:10px; text-transform:uppercase; padding:0; display:block; }

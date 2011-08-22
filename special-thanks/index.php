@@ -5,7 +5,9 @@
 
 ?>
 <?php require('../header.php') ?>
+<div id="wrapper-top"></div>
 	<div id="content">
+		<div id="sub-content">
 		<div id="copy">
 			<h2>Special Thanks</h2>
 			<p>First of all, I would like to thank my mother and my father. Without them I would not be here today...not only in life, but where I'm at as a photographer. They have always been there for me when times were hard, money was scarce and feelings were hurt. I love you both so very much.</p>
@@ -18,5 +20,8 @@
 			
 			<p><strong class="author">-Angela Beaulieu</strong></p>
 		</div>
+		</div>
 	</div>
+<?php require('../nav.php') ?>
+<div id="wrapper-bottom"></div>
 <?php require('../footer.php') ?>

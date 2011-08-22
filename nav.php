@@ -10,11 +10,13 @@ $basepath = 'http://'.$uri_path;
 $imagepath = $basepath.'/images/';
 ?>
 <div id="nav">
-	<h2><a <?php if ($page == 'home') { echo 'class="active"'; } ?> href="<?php echo $basepath; ?>/">home</a> | </h2>
-	<h2><a <?php if ($page == 'about') { echo 'class="active"'; } ?> href="<?php echo $basepath; ?>/about">about</a> | </h2>
-	<h2><a <?php if ($page == 'galleries') { echo 'class="active"'; } elseif ($section == 'galleries') { echo 'class="active"'; } ?> href="<?php echo $basepath; ?>/#">galleries</a> | </h2>
-	<h2><a <?php if ($page == 'session') { echo 'class="active"'; } ?> href="<?php echo $basepath; ?>/#">session prices</a> | </h2>
-	<h2><a href="<?php echo $basepath; ?>/#">blog</a> | </h2>
-	<h2><a <?php if ($page == 'contact') { echo 'class="active"'; } ?> href="<?php echo $basepath; ?>/#">contact</a> | </h2>
-	<h2><a <?php if ($page == 'special') { echo 'class="active"'; } ?> href="<?php echo $basepath; ?>/#">special thanks</a></h2>
+	<div id="menu">
+		<h2><a <?php if ($page == 'home') { echo 'class="active"'; } ?> href="<?php echo $basepath; ?>/">home</a> | </h2>
+		<h2><a <?php if ($page == 'about') { echo 'class="active"'; } ?> href="<?php echo $basepath; ?>/about">about</a> | </h2>
+		<h2><a <?php if ($page == 'galleries') { echo 'class="active"'; } elseif ($section == 'galleries') { echo 'class="active"'; } ?> href="<?php echo $basepath; ?>/galleries">galleries</a> | </h2>
+		<h2><a <?php if ($page == 'session') { echo 'class="active"'; } ?> href="<?php echo $basepath; ?>/#">session prices</a> | </h2>
+		<h2><a href="<?php echo $basepath; ?>/#">blog</a> | </h2>
+		<h2><a <?php if ($page == 'contact') { echo 'class="active"'; } ?> href="<?php echo $basepath; ?>/contact">contact</a> | </h2>
+		<h2><a <?php if ($page == 'special') { echo 'class="active"'; } ?> href="<?php echo $basepath; ?>/special-thanks">special thanks</a></h2>
+	</div>
 </div>
