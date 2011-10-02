@@ -83,7 +83,9 @@
 	
 		<p>Thank you for visiting my site! If you have any inquiries, comments or just want to get in touch, please use the form here. I strive to answer all emails within 24 hours of receiving them. You may also email me <a href="mailto:info@angelabeaulieuphoto.com">directly</a> if you'd like.</p>
 	
-	<script src="http://widgets.twimg.com/j/2/widget.js"></script>
+	<!-- Twitter Widget is commented out per client's request. Leaving here in case the client changes their mind and wants it back. -->
+	
+	<!-- <script src="http://widgets.twimg.com/j/2/widget.js"></script>
 	<script>
 	new TWTR.Widget({
 	  version: 2,
@@ -113,7 +115,7 @@
 	    behavior: 'default'
 	  }
 	}).render().setUser('angbphotography').start();
-	</script>
+	</script> -->
 
 	<form action="#" method="post" accept-charset="utf-8" class="validate">
 				<fieldset>

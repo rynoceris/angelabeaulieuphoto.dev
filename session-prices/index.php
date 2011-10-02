@@ -19,26 +19,28 @@ And I need this to be someplace on the pricing page:
 
 -->
 <?php require('../header.php') ?>
-	<div id="content">
-		<div id="copy">
+	<div id="wrapper-top"></div>
+		<div id="content">
+			<div id="sub-content">
+				<div id="copy">
 		<h2>Session Prices</h2>
 			<div class="col-1">
 				<h3>Wedding:</h3> 
 			
-				<ul>Jack & Rose:
+				<ul>Jack &amp; Rose:
 				    <li>Planning Session</li>
 				    <li>6 Hours Coverage<span class="asterisk">*</span></li>
-				    <li>DVD Of Images (with print release)<span class="asterisk">*</span></li>
+				    <li>DVD Of Images<br />(with print release)<span class="asterisk">*</span></li>
 				    <li>Time/Travel/Talent<span class="asterisk">*</span></li>
 				</ul>
 				
 				<p>Package: <span class="price">$850.00</span></p>
 				
-				<ul>Romeo & Juliet:
+				<ul>Romeo &amp; Juliet:
 				    <li>Planning Session</li>
 					<li>Engagement Session</li>
 				    <li>8+ Hours Coverage<span class="asterisk">*</span></li>
-				    <li>DVD Of Images (with print release)<span class="asterisk">*</span></li>
+				    <li>DVD Of Images<br />(with print release)<span class="asterisk">*</span></li>
 				    <li>Time/Travel/Talent<span class="asterisk">*</span></li>
 				</ul>
 				
@@ -48,10 +50,10 @@ And I need this to be someplace on the pricing page:
 								
 				<h3>Engagement:</h3>
 				<ul>
-					<li>On location up to 2 hours</li>
+					<li>On location up to 2 hrs</li>
 				  	<li>Unlimited outfits/poses</li>
 				  	<li>Up to 2 locations (optional)</li>
-					<li>Post processing/retouching</li>
+					<li>Post process/retouch</li>
 					<li>30 images on cd</li>
 					<li>Time/travel/talent</li>
 				</ul>
@@ -62,10 +64,10 @@ And I need this to be someplace on the pricing page:
 			<div class="col-2">
 				<h3>Maternity:</h3>
 				<ul>
-					<li>On location and/or studio time up to 2 hours</li>
+					<li>On location and/or<br />studio time up to 2 hours</li>
 				  	<li>Unlimited outfits/poses</li>
 				  	<li>Up to 2 locations (optional)</li>
-					<li>Post processing/retouching</li>
+					<li>Post process/retouch</li>
 					<li>30 images on cd</li>
 				</ul>
 				
@@ -76,84 +78,86 @@ And I need this to be someplace on the pricing page:
 				<h3>Newborn:</h3>
 				
 				<ul>
-				  <li>On location and/or studio time up to 4 hours (newborns take time to work with)</li>
+				  <li>On location and/or<br />studio time up to 4 hours<br />(newborns take time to work with)</li>
 				  <li>Unlimited outfits/poses</li>
-				  <li>Post processing/retouching</li>
+				  <li>Post process/retouch</li>
 				  <li>20 images on cd</li>
 				</ul>
 				
 				<p>Package: <span class="price">$200.00</span></p>
 				
-				<p><span class="asterisk">***</span>Newborns sessions can last up to 4 or more hours. There needs to be plenty of time for feedings, naps, comforting, changing and so on.</p>
+				<p><span class="asterisk">***</span>Newborn sessions can last up to 4 hours or more. There needs to be plenty of time for feedings, naps, comforting, changing and so on.</p>
 				
-			</div>
-			<div class="col-3">
 				<h3>Family:</h3>
 
 				<ul>
-					<li>On location up to 2 hours</li>
+					<li>On location up to 2 hrs</li>
 					<li>Unlimited outfits/poses</li>
 					<li>Up to 2 locations (optional)</li>
-					<li>Post processing/retouching</li>
+					<li>Post process/retouch</li>
 					<li>30 images on cd</li>
 					<li>Time/travel/talent</li>
 				</ul>
 
-				<p>Package: <span class="price">$125</span> | 6+ members: <span class="price">$150</span></p>
-
+				<p>Package: <span class="price">$125</span><br />6+ members: <span class="price">$150</span></p>
+				
+			</div>
+			<div class="col-3">
+				
 				<h3>Children ages 5-12:</h3>
 
 				<ul>
-					<li>On location up to 2 hours</li>
+					<li>On location up to 2 hrs</li>
 					<li>Unlimited outfits/poses</li>
 					<li>Up to 2 locations (optional)</li>
-					<li>Post processing/retouching</li>
+					<li>Post process/retouch</li>
 					<li>30 images on cd</li>
 					<li>Time/travel/talent</li>
 				</ul>
 				
-				<p>Package: <span class="price">$125</span> (one child) | Add <span class="price">$25</span> for each additional child.</p>
+				<p>Package: <span class="price">$125</span> (one child)<br />Add <span class="price">$25</span> for each additional child.</p>
 				
 				<h3>Babies 3mos-18mos:</h3>
 				<ul>
-					<li>On location and/or studio time up to 2 hours</li>
+					<li>On location and/or<br />studio time up to 2 hours</li>
 					<li>Unlimited outfits/poses</li>
 					<li>Up to 2 locations (optional)</li>
-					<li>Post processing/retouching</li>
+					<li>Post process/retouch</li>
 					<li>20 images on cd</li>
 				</ul>
 				
-				<p>Package: <span class="price">$150</span> | Add <span class="price">$25</span> for each additional child.</p>
+				<p>Package: <span class="price">$150</span><br />Add <span class="price">$25</span> for each additional child.</p>
+				
+				<h3>Toddlers 18mos-3yrs:</h3>
+				<ul>
+					<li>On location and/or<br />studio time up to 2 hours</li>
+					<li>Unlimited outfits/poses</li>
+					<li>Up to 2 locations (optional)</li>
+					<li>Post process/retouch</li>
+					<li>20 images on cd</li>
+				</ul>
+				<p>Package: <span class="price">$150</span><br />Add <span class="price">$25</span> for each additional child.</p>
 				
 			</div>
 			<div class="col-4">
-				<h3>Toddlers 18mos-3yrs:</h3>
-				<ul>
-					<li>On location and/or studio time up to 2 hours</li>
-					<li>Unlimited outfits/poses</li>
-					<li>Up to 2 locations (optional)</li>
-					<li>Post processing/retouching</li>
-					<li>20 images on cd</li>
-				</ul>
-				<p>Package: <span class="price">$150</span> | Add <span class="price">$25</span> for each additional child.</p>
 
 				<h3>Tiny people 3yrs-5yrs:</h3>
 				<ul>
-					<li>On location and/or studio time up to 2 hours</li>
+					<li>On location and/or<br />studio time up to 2 hours</li>
 					<li>Unlimited outfits/poses</li>
 					<li>Up to 2 locations (optional)</li>
-					<li>Post processing/retouching</li>
+					<li>Post process/retouch</li>
 					<li>20 images on cd</li>
 				</ul>
-				<p>Package: <span class="price">$125</span> | Add <span class="price">$25</span> for each additional child.</p>
+				<p>Package: <span class="price">$125</span><br />Add <span class="price">$25</span> for each additional child.</p>
 				
 				<h3>Cake Smash:</h3>
 				
 				<ul>
-					<li>On location and/or studio time up to 2 hours</li>
+					<li>On location and/or<br />studio time up to 2 hours</li>
 					<li>Unlimited outfits/poses</li>
 					<li>Up to 2 locations (optional)</li>
-					<li>Post processing/retouching</li>
+					<li>Post process/retouch</li>
 					<li>20 images on cd</li>
 					<li>Cake/cupcakes/balloons</li>
 				</ul>
@@ -169,6 +173,9 @@ And I need this to be someplace on the pricing page:
 			<span class="asterisk">**</span> All weddings require a wedding contract in order for booking. 25% of the wedding package price is due at the signing of the contract and is a NON REFUNDABLE RETAINER.<br /><br />
 			<span class="asterisk">**</span> Session fees are NON REFUNDABLE but are transferable up to one time.
 			</p>
+			</div>
 		</div>
 	</div>
+<?php require('../nav.php') ?>
+<div id="wrapper-bottom"></div>
 <?php require('../footer.php') ?>
