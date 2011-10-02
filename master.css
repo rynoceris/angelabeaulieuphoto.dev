@@ -32,7 +32,7 @@ body#about-page #sidebar { width:259px; height:389px; }
 #respond { background:#2a2a2a; float:left; -moz-border-radius:10px; -webkit-border-radius:10px; border-radius:10px; padding:15px; margin-right:20px; margin-top:20px; }
 .col-1, .col-2, .col-3, .col-4 { width:193px; float:left; padding:0 10px; border-left:1px solid #fff; min-height: 763px; }
 .col-4 { border-right:1px solid #fff; }
-#menu { width:821px; margin:0 auto; }
+#menu { width:745px; margin:0 auto; }
 
 /* Image Styles */
 img { border:0; }
