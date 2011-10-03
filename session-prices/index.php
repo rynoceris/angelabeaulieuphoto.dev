@@ -23,7 +23,7 @@ And I need this to be someplace on the pricing page:
 		<div id="content">
 			<div id="sub-content">
 				<div id="copy">
-		<h2>Session Prices</h2>
+		<h2>session prices</h2>
 			<div class="col-1">
 				<h3>Wedding:</h3> 
 			

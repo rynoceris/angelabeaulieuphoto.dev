@@ -10,11 +10,12 @@
 			<div id="sub-content">
 				<div id="copy">
 					<h2>about</h2>
-					<p>I discovered at a young age that I loved photography. After all, considering I was born and raised in beautiful Florida, I always had a variety of scenery and inspiration.</p>
-		
-					<p>My name is Angela Beaulieu and I am 24 years old. I enjoy many activities including cars, fishing, camping and most of all photography. I never leave home without a camera. I am constantly taking pictures everywhere I go...no matter where I go, I always stop dead in my tracks to stare at a potential work of art.</p>
-			
-					<p>The only way of life for me is creating memories on paper. Pictures so full of life they tell a story, and images so vivid, they take your breath away. This is who I am and this is what I enjoy. I am always willing to photograph anything and anyone, as long as it makes for a wonderful memory captured forever.</p>
+					
+					<p>Photography has always been apart of my every day life. I spent many years selling cameras at a local electronics store and that same store is where I bought my first DSLR.</p>
+
+					<p>To me, there is nothing more wonderful than capturing life's most precious moments in time. What started me on wedding photography was taking a look at my own wedding photos and being reminded just how horrible they were and how upset I was about them. Ever since my own wedding day, Ive thrived to make sure no other bride goes through the emotions I had to. So that is what started me on weddings.</p>
+
+					<p>I would be honored to photograph any special event or time in your life, if you would let me. I am located in beautiful New Port Richey, Florida and I'm always willing to travel. Please feel free to <a href="/contact">contact</a> me with any questions or if you would like to book a session.</p>
 			
 					<p>Thank you for visiting my site and I hope you enjoy some of my work <span class="pink">:)</span></p>
 				

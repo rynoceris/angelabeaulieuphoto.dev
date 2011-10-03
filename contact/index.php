@@ -8,7 +8,7 @@
 	<div id="wrapper-top"></div>
 		<div id="content">
 			<div id="sub-content">
-		<h2>Contact Me</h2>
+		<h2>contact me</h2>
 	
 				<?php 
 		$send = true;
